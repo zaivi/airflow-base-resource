@@ -1,0 +1,9 @@
+steps:
+    - name: "gcr.io/cloud-builders/gcloud"
+      id: Update Airflow server
+      entrypoint: /bin/sh
+      args:
+          - "-c"
+          - |
+              set -x && \
+              gcloud compute ssh airflow-instance --zone=asia-southeast1-a --command='/bin/sh pull.sh'
