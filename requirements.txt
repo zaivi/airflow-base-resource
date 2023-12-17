@@ -6,6 +6,7 @@ google-cloud-logging==3.8.0
 google-api-python-client==2.101.0
 google-cloud-dataflow-client==0.8.4
 google-cloud-bigquery[pandas]==3.11.4
+google-cloud-storage==2.14.0
 apache-airflow-providers-google==10.8.0
 apache-airflow-providers-sendgrid==3.2.2
 apache-airflow-providers-apache-beam==5.2.3
